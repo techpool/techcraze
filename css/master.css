@@ -26,3 +26,9 @@
     width: 125px;
     margin: 15px;
 }
+
+@media only screen and (max-width: 980px) {
+    .main_title{
+        font-size: 3em;
+    }
+}
