@@ -1961,7 +1961,7 @@ a {
   transition: all 0.5s;
 }
 .banner {
-  background: url(img/banner.jpg) 50% 50% no-repeat;
+  background: url(img/banner_background.jpg) 50% 50% no-repeat;
   background-size: cover;
   color: #fff;
   padding-top: 3em;
