@@ -22,3 +22,13 @@ WebFont.load({
 }), $(".carousel").swipeleft(function() {
     $(this).carousel("next")
 }), google.maps.event.addDomListener(window, "load", googleMap);
+
+$(function () {
+    var viewer = ImageViewer();
+    $('.gallery-items').click(function () {
+        var imgSrc = this.src,
+            highResolutionImage = $(this).data('high-res-img');
+
+        viewer.show(imgSrc, highResolutionImage);
+    });
+});

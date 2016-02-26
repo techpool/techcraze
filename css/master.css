@@ -10,6 +10,8 @@
     font-size: 5em;
     background: rgba(0, 0, 0, 0.4);
     padding: 30px;
+    border-radius: 0.2em;
+    color: white;
 }
 
 .last_year{
@@ -18,4 +20,9 @@
 
 .promotional-block{
     padding-top: 30px;
+}
+
+.gallery-items{
+    width: 125px;
+    margin: 15px;
 }
