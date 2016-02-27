@@ -1964,7 +1964,7 @@ a {
   background: url(img/banner_background.jpg) 50% 50% no-repeat;
   background-size: cover;
   color: #fff;
-  padding-top: 3em;
+  padding-top: 2em;
   padding-bottom: 3em;
 }
 .banner-heading {
@@ -2118,7 +2118,8 @@ a {
 .event-speaker:after {
   width: 30px;
   height: 30px;
-  background-image: url("data:image/svg+xml;charset=UTF-8,%3C%3Fxml%20version%3D%221.0%22%20encoding%3D%22utf-8%22%3F%3E%0A%3C!--%20Generated%20by%20IcoMoon.io%20--%3E%0A%3C!DOCTYPE%20svg%20PUBLIC%20%22-%2F%2FW3C%2F%2FDTD%20SVG%201.1%2F%2FEN%22%20%22http%3A%2F%2Fwww.w3.org%2FGraphics%2FSVG%2F1.1%2FDTD%2Fsvg11.dtd%22%3E%0A%3Csvg%20version%3D%221.1%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20xmlns%3Axlink%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%22%20width%3D%2232%22%20height%3D%2232%22%20viewBox%3D%220%200%2032%2032%22%3E%0A%3Cpath%20fill%3D%22%23fff%22%20d%3D%22M32%206.076c-1.177%200.522-2.443%200.875-3.771%201.034%201.355-0.813%202.396-2.099%202.887-3.632-1.269%200.752-2.674%201.299-4.169%201.593-1.198-1.276-2.904-2.073-4.792-2.073-3.626%200-6.565%202.939-6.565%206.565%200%200.515%200.058%201.016%200.17%201.496-5.456-0.274-10.294-2.888-13.532-6.86-0.565%200.97-0.889%202.097-0.889%203.301%200%202.278%201.159%204.287%202.921%205.465-1.076-0.034-2.088-0.329-2.974-0.821-0.001%200.027-0.001%200.055-0.001%200.083%200%203.181%202.263%205.834%205.266%206.437-0.551%200.15-1.131%200.23-1.73%200.23-0.423%200-0.834-0.041-1.235-0.118%200.835%202.608%203.26%204.506%206.133%204.559-2.247%201.761-5.078%202.81-8.154%202.81-0.53%200-1.052-0.031-1.566-0.092%202.905%201.863%206.356%202.95%2010.064%202.95%2012.076%200%2018.679-10.004%2018.679-18.68%200-0.285-0.006-0.568-0.019-0.849%201.283-0.926%202.396-2.082%203.276-3.398z%22%3E%3C%2Fpath%3E%0A%3C%2Fsvg%3E%0A");
+  background-image: url("http://huboncampus.com/wp-content/themes/hub/images/social/facebook/facebook-1024.png");
+  background-size: 32px 32px;
   background-repeat: no-repeat;
   top: 50%;
   left: 50%;
@@ -2357,7 +2358,7 @@ a {
 }
 @media only screen and (min-width: 740px) {
   .banner {
-    padding-top: 5em;
+    padding-top: 3em;
     padding-bottom: 6em;
   }
   .banner-buttons .button {
@@ -2397,7 +2398,7 @@ a {
 }
 @media only screen and (min-width: 980px) {
   .banner {
-    padding-top: 8em;
+    padding-top: 4em;
     padding-bottom: 8em;
   }
   .tabs {

@@ -28,47 +28,56 @@
 }
 
 .counter{
-        text-align: center;
-        align-items: center;
-        margin-top: 20px;
-    }
+    text-align: center;
+    align-items: center;
+    margin-top: 20px;
+}
 
-    h1{
-      color: #396;
-      font-weight: 100;
-      font-size: 40px;
-      margin: 40px 0px 20px;
-    }
+h1{
+  color: #396;
+  font-weight: 100;
+  font-size: 40px;
+  margin: 40px 0px 20px;
+}
 
-    #clockdiv{
-    	font-family: sans-serif;
-    	color: #fff;
-    	display: inline-block;
-    	font-weight: 100;
-    	text-align: center;
-    	font-size: 30px;
-    }
+#clockdiv{
+	color: #fff;
+	display: inline-block;
+	font-weight: 100;
+	text-align: center;
+	font-size: 30px;
+}
 
-    #clockdiv > div{
-    	padding: 10px;
-    	border-radius: 3px;
-    	background: #d20000;
-    	display: inline-block;
-    }
+#clockdiv > div{
+	padding: 10px;
+	border-radius: 3px;
+	background: #d20000;
+	display: inline-block;
+}
 
-    #clockdiv div > span{
-    	padding: 15px;
-    	border-radius: 3px;
-    	background: #f53a37;
-    	display: inline-block;
-    }
+#clockdiv div > span{
+	padding: 15px;
+	border-radius: 3px;
+	background: #f53a37;
+	display: inline-block;
+}
 
-    .smalltext{
-    	padding-top: 5px;
-    	font-size: 16px;
-    }
+.smalltext{
+	padding-top: 5px;
+	font-size: 16px;
+}
+
+.event-speakers li{
+    padding-bottom: 20px;;
+}
 
 @media only screen and (max-width: 980px) {
+    .counter-heading,
+    #clockdiv{
+        font-size: 1em;
+    }
+
+
     .main_title{
         font-size: 3em;
     }
