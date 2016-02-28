@@ -9,7 +9,8 @@
   position: absolute;
   transform-style: preserve-3d;
   transform-origin: 50% 0 -30px;
-  animation: spin 60s linear infinite;
+  animation: spin 5s linear infinite;
+  z-index: 0;
 }
 
 /*------- robot body ------- */
@@ -350,12 +351,14 @@
     margin-bottom: 10vh;
     border-radius: 0.2em;
     color: white;
+    z-index: 1000;
 }
 
 .banner p{
     background: rgba(0, 0, 0, 0.4);
     padding: 20px;
     text-align: justify;
+    z-index: 1000;
 }
 
 .last_year{
@@ -421,6 +424,9 @@ h1{
         font-size: 1em;
     }
 
+    #robot{
+        display: none;
+    }
 
     .main_title{
         font-size: 3em;
