@@ -297,24 +297,69 @@
     visibility: hidden;
 }
 
-#manual-robotics{
-    background-image: url('http://tv.hamyarkonkoor.com/wp-content/uploads/2015/08/tv-hamyarkonkoor-background.jpg');
+.events{
     background-repeat: no-repeat;
     background-size: cover;
-    background-attachment: fixed;
 }
+
 
 #schedule{
     background-image: url('http://widewallpaper.info/wp-content/uploads/2016/01/flat-design-wallpapers-HD-03.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
+}
+
+#manual-robotics{
+    background-image: url('http://tv.hamyarkonkoor.com/wp-content/uploads/2015/08/tv-hamyarkonkoor-background.jpg');
     background-attachment: fixed;
 }
 
+#autonomous-robots{
+    background-image: url('https://0.s3.envato.com/files/107365400/flat8_prev.jpg');
+}
+
+#ideate{
+    background-image: url('http://panoramika.kiev.ua/wp-content/uploads/2014/03/flat_2.png');
+    background-attachment: fixed;
+}
+
+#camera{
+    background-image: url('https://cdn.designmaz.net/wp-content/uploads/2014/10/ceystalhorizon.png');
+}
+
+#tech-design{
+    background-image: url('http://www.mindcontrolindustries.com/wp-content/uploads/2014/01/F3It5Ry.jpg');
+    background-attachment: fixed;
+}
+
+#codificer{
+    background-image: url('http://blog.peopleperhour.com/wp-content/uploads/2015/12/title_image_default.png');
+}
+
+#gaming{
+    background-image: url('http://gfxzone.net/wp-content/uploads/2014/06/main-background1.jpg');
+    background-attachment: fixed;
+}
+
+#bridge-building{
+    background-image: url('https://d3ui957tjb5bqd.cloudfront.net/images/screenshots/products/9/97/97942/geometric_25-o.jpg?1398206279');
+}
+
+#makebestofwaste{
+    background-image: url('http://wallpapercave.com/wp/Dp3Xq6o.jpg');
+}
+
 .manual-robotics-text,
-.schedule-text{
+.schedule-text,
+.autonomous-robots-text,
+.ideate-text,
+.camera-text,
+.tech-design-text,
+.codificer-text,
+.gaming-text,
+.bridge-building-text,
+.makebestofwaste-text{
     color: #fff;
 }
+
 .navbar-default .container-fluid{
     background-color: rgba(0, 0, 0, 0.7);
     border-color: rgba(0, 0, 0, 0.7);
@@ -333,7 +378,7 @@
     background-color: rgba(0, 0, 0, 1);
 }
 
-.grey-row .tabs{
+.events .tabs{
     background-color: #fff;
     border-style: solid;
     border-width: thin;

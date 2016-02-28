@@ -104,10 +104,26 @@ jQuery(document).ready( function() {
      });
 
      var options = [
-        {selector: '.schedule-text', offset: 0, callback: "addAnimation('.schedule-text', 'fadeInLeft')" },
-        {selector: '.schedule-tab', offset: 0, callback: "addAnimation('.schedule-tab', 'fadeInRight')" },
-        {selector: '.manual-robotics-text', offset: 0, callback: "addAnimation('.manual-robotics-text', 'fadeInLeft')" },
-        {selector: '.manual-robotics-tab', offset: 0, callback: "addAnimation('.manual-robotics-tab', 'fadeInRight')" }
+        {selector: '.schedule-text', offset: 0, callback: "addAnimation('.schedule-text', 'fadeInRight')" },
+        {selector: '.schedule-tab', offset: 0, callback: "addAnimation('.schedule-tab', 'fadeInLeft')" },
+        {selector: '.manual-robotics-text', offset: 0, callback: "addAnimation('.manual-robotics-text', 'fadeInRight')" },
+        {selector: '.manual-robotics-tab', offset: 0, callback: "addAnimation('.manual-robotics-tab', 'fadeInLeft')" },
+        {selector: '.autonomous-robots-text', offset: 0, callback: "addAnimation('.autonomous-robots-text', 'fadeInLeft')" },
+        {selector: '.autonomous-robots-tabs', offset: 0, callback: "addAnimation('.autonomous-robots-tabs', 'fadeInRight')" },
+        {selector: '.ideate-tabs', offset: 0, callback: "addAnimation('.ideate-tabs', 'fadeInLeft')" },
+        {selector: '.ideate-text', offset: 0, callback: "addAnimation('.ideate-text', 'fadeInRight')" },
+        {selector: '.camera-tabs', offset: 0, callback: "addAnimation('.camera-tabs', 'fadeInRight')" },
+        {selector: '.camera-text', offset: 0, callback: "addAnimation('.camera-text', 'fadeInLeft')" },
+        {selector: '.tech-design-tabs', offset: 0, callback: "addAnimation('.tech-design-tabs', 'fadeInLeft')" },
+        {selector: '.tech-design-text', offset: 0, callback: "addAnimation('.tech-design-text', 'fadeInRight')" },
+        {selector: '.codificer-tabs', offset: 0, callback: "addAnimation('.codificer-tabs', 'fadeInRight')" },
+        {selector: '.codificer-text', offset: 0, callback: "addAnimation('.codificer-text', 'fadeInLeft')" },
+        {selector: '.gaming-tabs', offset: 0, callback: "addAnimation('.gaming-tabs', 'fadeInLeft')" },
+        {selector: '.gaming-text', offset: 0, callback: "addAnimation('.gaming-text', 'fadeInRight')" },
+        {selector: '.bridge-building-tabs', offset: 0, callback: "addAnimation('.bridge-building-tabs', 'fadeInRight')" },
+        {selector: '.bridge-building-text', offset: 0, callback: "addAnimation('.bridge-building-text', 'fadeInLeft')" },
+        {selector: '.makebestofwaste-tabs', offset: 0, callback: "addAnimation('.makebestofwaste-tabs', 'fadeInLeft')" },
+        {selector: '.makebestofwaste-text', offset: 0, callback: "addAnimation('.makebestofwaste-text', 'fadeInRight')" }
      ];
      Materialize.scrollFire(options);
 
