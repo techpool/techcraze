@@ -90,14 +90,24 @@ function initializeClock(id, endtime) {
 var deadline = new Date(1456833600000);
 initializeClock('clockdiv', deadline);
 
+function addAnimation(selector, animation) {
+    var animation = 'animated ' + animation;
+    $(selector).addClass(animation);
+    $(selector).removeClass('display-none');
+}
+
 jQuery(document).ready( function() {
+
+    $('.parallax').parallax();
      jQuery('#grid-container').cubeportfolio({
         // options
      });
 
      var options = [
-        {selector: '.schedule-text', offset: 0, callback: "$('.schedule-text').addClass('animated slideInLeft');" },
-        {selector: '.schedule-tab', offset: 0, callback: "$('.schedule-tab').addClass('animated slideInRight');" }
+        {selector: '.schedule-text', offset: 0, callback: "addAnimation('.schedule-text', 'fadeInLeft')" },
+        {selector: '.schedule-tab', offset: 0, callback: "addAnimation('.schedule-tab', 'fadeInRight')" },
+        {selector: '.manual-robotics-text', offset: 0, callback: "addAnimation('.manual-robotics-text', 'fadeInLeft')" },
+        {selector: '.manual-robotics-tab', offset: 0, callback: "addAnimation('.manual-robotics-tab', 'fadeInRight')" }
      ];
      Materialize.scrollFire(options);
 
