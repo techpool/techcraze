@@ -379,6 +379,10 @@
     background-color: rgba(0, 0, 0, 1);
 }
 
+.last_year_gallery img{
+    margin: 0 auto;;
+}
+
 .events .tabs{
     background-color: #fff;
     border-style: solid;

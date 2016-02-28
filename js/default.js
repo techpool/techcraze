@@ -99,11 +99,11 @@ function addAnimation(selector, animation) {
 jQuery(document).ready( function() {
 
     $('.parallax').parallax();
-     jQuery('#grid-container').cubeportfolio({
-        // options
-     });
+    jQuery('#grid-container').cubeportfolio({
+    // options
+    });
 
-     var options = [
+    var options = [
         {selector: '.schedule-text', offset: 0, callback: "addAnimation('.schedule-text', 'fadeInRight')" },
         {selector: '.schedule-tab', offset: 0, callback: "addAnimation('.schedule-tab', 'fadeInLeft')" },
         {selector: '.manual-robotics-text', offset: 0, callback: "addAnimation('.manual-robotics-text', 'fadeInRight')" },
@@ -124,7 +124,16 @@ jQuery(document).ready( function() {
         {selector: '.bridge-building-text', offset: 0, callback: "addAnimation('.bridge-building-text', 'fadeInLeft')" },
         {selector: '.makebestofwaste-tabs', offset: 0, callback: "addAnimation('.makebestofwaste-tabs', 'fadeInLeft')" },
         {selector: '.makebestofwaste-text', offset: 0, callback: "addAnimation('.makebestofwaste-text', 'fadeInRight')" }
-     ];
-     Materialize.scrollFire(options);
+    ];
+    Materialize.scrollFire(options);
+    $('.last_year_gallery').slick({
+        // normal options...
+        infinite: true,
+        autoplay: true,
+        dots: true,
+        adaptiveHeight: true,
+        accessibility: true,
+        arrows: true
+    });
 
 });
