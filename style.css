@@ -1963,6 +1963,7 @@ a {
 .banner {
   background: url(img/banner_background.jpg) 50% 50% no-repeat;
   background-size: cover;
+  background-attachment: fixed;
   color: #fff;
   padding-top: 2em;
   padding-bottom: 3em;

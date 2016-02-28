@@ -2,6 +2,28 @@
     height: 120vh;
 }
 
+.display-none{
+    visibility: hidden;
+}
+
+#manual-robotics{
+    background-image: url('http://tv.hamyarkonkoor.com/wp-content/uploads/2015/08/tv-hamyarkonkoor-background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#schedule{
+    background-image: url('http://widewallpaper.info/wp-content/uploads/2016/01/flat-design-wallpapers-HD-03.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.manual-robotics-text,
+.schedule-text{
+    color: #fff;
+}
 .navbar-default .container-fluid{
     background-color: rgba(0, 0, 0, 0.7);
     border-color: rgba(0, 0, 0, 0.7);
