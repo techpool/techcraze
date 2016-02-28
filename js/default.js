@@ -94,4 +94,11 @@ jQuery(document).ready( function() {
      jQuery('#grid-container').cubeportfolio({
         // options
      });
+
+     var options = [
+        {selector: '.schedule-text', offset: 0, callback: "$('.schedule-text').addClass('animated slideInLeft');" },
+        {selector: '.schedule-tab', offset: 0, callback: "$('.schedule-tab').addClass('animated slideInRight');" }
+     ];
+     Materialize.scrollFire(options);
+
 });
