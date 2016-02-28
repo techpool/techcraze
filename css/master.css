@@ -345,6 +345,7 @@
 
 #makebestofwaste{
     background-image: url('http://tv.hamyarkonkoor.com/wp-content/uploads/2015/08/tv-hamyarkonkoor-background.jpg');
+    background-attachment: fixed;
 }
 
 .manual-robotics-text,
