@@ -362,6 +362,10 @@
     background-repeat: no-repeat;
 }
 
+.white-text{
+    color: #fff;
+}
+
 .manual-robotics-text,
 .schedule-text,
 .autonomous-robots-text,
@@ -476,10 +480,6 @@ h1{
 .smalltext{
 	padding-top: 5px;
 	font-size: 16px;
-}
-
-.event-speakers li{
-    padding-bottom: 20px;;
 }
 
 /*accordian style*/
