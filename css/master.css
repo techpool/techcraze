@@ -305,6 +305,8 @@
 
 #schedule{
     background-image: url('http://widewallpaper.info/wp-content/uploads/2016/01/flat-design-wallpapers-HD-03.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 #manual-robotics{
@@ -550,6 +552,10 @@ h1{
   text-decoration: none;
   padding: 20px;
   font-size: 16px;
+}
+
+.schedule-tab i{
+    padding-left: 10px;
 }
 
 @media only screen and (max-width: 980px) {
