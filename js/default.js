@@ -135,5 +135,11 @@ jQuery(document).ready( function() {
         accessibility: true,
         arrows: true
     });
-
+    $(function(){
+        $(".main_title").typed({
+            strings: ["TECHCRAZE 2K16", "<span style='font-size:0.5em'>NURTURE :: CULTIVATE :: CREATE<span>"],
+            contentType: 'html',
+            typeSpeed: 0
+        });
+    });
 });
