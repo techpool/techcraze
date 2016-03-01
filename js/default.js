@@ -1,4 +1,3 @@
-$('main').hide();
 
 var xmlns = "http://www.w3.org/2000/svg",
   select = function(s) {
@@ -31,7 +30,7 @@ tl.staggerTo('#bubbleGroup circle', 3, {
 
 $(window).load(function() {
      $('#gradient').hide();
-     $('main').show();
+     $('main').removeClass('hidden');
 });
 
 
