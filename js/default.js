@@ -4,7 +4,7 @@ function googleMap() {
         e = {
             center: new google.maps.LatLng(22.850808, 88.344764),
             scrollwheel: !1,
-            zoom: 12,
+            zoom: 13,
             mapTypeId: google.maps.MapTypeId.ROADMAP
         },
         o = new google.maps.Map(o, e),
