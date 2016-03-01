@@ -6,9 +6,20 @@
     position: fixed;
     display: block;
     opacity: 1;
+    z-index: -1;
     background-color: #fff;
-    z-index: 1000;
     text-align: center;
+}
+
+.bottle_loader {
+  position: absolute;
+  max-width: 100%;
+  height: 600px;
+}
+
+svg {
+  max-width: 100%;
+  visibility: hidden;
 }
 /* -------------------------------------
  * Style
