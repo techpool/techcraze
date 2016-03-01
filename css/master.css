@@ -569,8 +569,12 @@ h1{
     }
 
     .main_title{
-        font-size: 3em;
-        margin-bottom: 5vh;
+        font-size: 2em;
+        margin-bottom: 1vh;
+    }
+
+    .banner-about{
+        font-size: 1.1em;
     }
 
     .accordian {
