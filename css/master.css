@@ -415,12 +415,13 @@
 }
 
 .main_title{
-    font-size: 5em;
+    font-size: 3em;
     background: rgba(0, 0, 0, 0.4);
     padding: 30px;
     margin-bottom: 10vh;
     border-radius: 0.2em;
     color: white;
+    height: 90px;
     z-index: 1000;
 }
 

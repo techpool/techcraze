@@ -136,10 +136,12 @@ jQuery(document).ready( function() {
         arrows: true
     });
     $(function(){
-        $(".main_title").typed({
+        $(".autotype_element").typed({
             strings: ["TECHCRAZE 2K16", "<span style='font-size:0.5em'>NURTURE :: CULTIVATE :: CREATE<span>"],
             contentType: 'html',
-            typeSpeed: 0
+            typeSpeed: 10,
+            loop: true,
+            showCursor: false
         });
     });
 });
