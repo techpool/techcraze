@@ -333,61 +333,61 @@ svg {
 
 
 #schedule{
-    background-image: url('http://widewallpaper.info/wp-content/uploads/2016/01/flat-design-wallpapers-HD-03.jpg');
+    background-image: url('../img/background/brown_background.jpg');
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 #manual-robotics{
-    background-image: url('http://tv.hamyarkonkoor.com/wp-content/uploads/2015/08/tv-hamyarkonkoor-background.jpg');
+    background-image: url('../img/background/green_background.jpg');
     background-attachment: fixed;
 }
 
 #autonomous-robots{
-    background-image: url('http://widewallpaper.info/wp-content/uploads/2016/01/flat-design-wallpapers-HD-03.jpg');
+    background-image: url('../img/background/brown_background.jpg');
 }
 
 #ideate{
-    background-image: url('http://tv.hamyarkonkoor.com/wp-content/uploads/2015/08/tv-hamyarkonkoor-background.jpg');
+    background-image: url('../img/background/green_background.jpg');
     background-attachment: fixed;
 }
 
 #camera{
-    background-image: url('http://widewallpaper.info/wp-content/uploads/2016/01/flat-design-wallpapers-HD-03.jpg');
+    background-image: url('../img/background/brown_background.jpg');
 }
 
 #tech-design{
-    background-image: url('http://tv.hamyarkonkoor.com/wp-content/uploads/2015/08/tv-hamyarkonkoor-background.jpg');
+    background-image: url('../img/background/green_background.jpg');
     background-attachment: fixed;
 }
 
 #codificer{
-    background-image: url('http://widewallpaper.info/wp-content/uploads/2016/01/flat-design-wallpapers-HD-03.jpg');
+    background-image: url('../img/background/brown_background.jpg');
 }
 
 #gaming{
-    background-image: url('http://tv.hamyarkonkoor.com/wp-content/uploads/2015/08/tv-hamyarkonkoor-background.jpg');
+    background-image: url('../img/background/green_background.jpg');
     background-attachment: fixed;
 }
 
 #bridge-building{
-    background-image: url('http://widewallpaper.info/wp-content/uploads/2016/01/flat-design-wallpapers-HD-03.jpg');
+    background-image: url('../img/background/brown_background.jpg');
 }
 
 #makebestofwaste{
-    background-image: url('http://tv.hamyarkonkoor.com/wp-content/uploads/2015/08/tv-hamyarkonkoor-background.jpg');
+    background-image: url('../img/background/green_background.jpg');
     background-attachment: fixed;
 }
 
 .last_year{
-    background-image: url('http://widewallpaper.info/wp-content/uploads/2016/01/flat-wallpaper.png');
+    background-image: url('../img/background/blue_background.png');
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .speakers-block{
-    background-image: url('http://patterns.jenangel.nl/wp-content/uploads/2015/10/Elegant_Background-3.jpg');
+    background-image: url('../img/background/yellow_background.jpg');
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
