@@ -210,15 +210,6 @@ jQuery(document).ready( function() {
         {selector: '.makebestofwaste-text', offset: 0, callback: "addAnimation('.makebestofwaste-text', 'fadeInRight')" }
     ];
     Materialize.scrollFire(options);
-    $('.last_year_gallery').slick({
-        // normal options...
-        infinite: true,
-        autoplay: true,
-        dots: true,
-        adaptiveHeight: true,
-        accessibility: true,
-        arrows: true
-    });
     $(function(){
         $(".autotype_element").typed({
             strings: ["TECHCRAZE 2K16", "<span style='font-size:0.5em'>NURTURE :: CULTIVATE :: CREATE<span>"],
