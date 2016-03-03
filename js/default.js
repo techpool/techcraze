@@ -120,16 +120,6 @@ WebFont.load({
     $(this).carousel("next")
 }), google.maps.event.addDomListener(window, "load", googleMap);
 
-$(function () {
-    var viewer = ImageViewer();
-    $('.gallery-items').click(function () {
-        var imgSrc = this.src,
-            highResolutionImage = $(this).data('high-res-img');
-
-        viewer.show(imgSrc, highResolutionImage);
-    });
-});
-
 $(function() {
   $('a[href*="#"]:not([data-toggle="collapse"], [data-toggle="tab"], [data-toggle="dropdown"])').click(function() {
     if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
@@ -196,9 +186,6 @@ function addAnimation(selector, animation) {
 jQuery(document).ready( function() {
 
     $('.parallax').parallax();
-    jQuery('#grid-container').cubeportfolio({
-    // options
-    });
 
     var options = [
         {selector: '.schedule-text', offset: 0, callback: "addAnimation('.schedule-text', 'fadeInRight')" },
