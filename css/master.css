@@ -1,3 +1,19 @@
+.fade{
+    background: rgb(0, 0, 0);
+    opacity: 0.8;
+    display: block;
+    width: 100%;
+    height: inherit;
+    position: absolute;
+    z-index: 999;
+    bottom: 0;
+    top: 0;
+}
+
+#registration{
+    position: relative;
+}
+
 .hidden{
     visibility: hidden;
 }
