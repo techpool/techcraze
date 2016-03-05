@@ -174,7 +174,7 @@ function initializeClock(id, endtime) {
   var timeinterval = setInterval(updateClock, 1000);
 }
 
-var deadline = new Date(1458498600000);
+var deadline = new Date(1458532800000);
 initializeClock('clockdiv', deadline);
 
 function addAnimation(selector, animation) {
