@@ -29,7 +29,7 @@ tl.staggerTo('#bubbleGroup circle', 3, {
 }, 0.6)
 
 $(window).load(function() {
-     $('#gradient').addClass('animated fadeOutDown');
+     $('#gradient').addClass('animated fadeOut');
      $('main').addClass('animated fadeIn');
      $('main').removeClass('hidden');
 });
