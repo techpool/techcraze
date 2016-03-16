@@ -390,6 +390,10 @@ svg {
     background-image: url('../img/background/brown_background.jpg');
 }
 
+#sudoku{
+    background-image: url('../img/background/brown_background.jpg');
+}
+
 #makebestofwaste{
     background-image: url('../img/background/green_background.jpg');
     background-attachment: fixed;
