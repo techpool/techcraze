@@ -141,6 +141,13 @@ function getTimeRemaining(endtime) {
   var minutes = Math.floor((t / 1000 / 60) % 60);
   var hours = Math.floor((t / (1000 * 60 * 60)) % 24);
   var days = Math.floor(t / (1000 * 60 * 60 * 24));
+  if (days < 0) {
+    seconds = 0;
+    minutes = 0;
+    hours = 0;
+    days = 0;
+  }
+
   return {
     'total': t,
     'days': days,
@@ -175,6 +182,7 @@ function initializeClock(id, endtime) {
 }
 
 var deadline = new Date(1458532800000);
+// var deadline = new Date(1458031458521);
 initializeClock('clockdiv', deadline);
 
 function addAnimation(selector, animation) {
